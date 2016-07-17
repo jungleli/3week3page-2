@@ -1,0 +1,273 @@
+$light-green: #3BAB98;
+$light-grey: #E5E5E5;
+$dark-grey: #999;
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+body {
+  font-family: ff-tisa-web-pro, Georgia, sans-serif;
+  width: 1080px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+h2, h3, h4, p {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  color: $light-green;
+  text-decoration: none;
+}
+
+.container {
+  min-width: 960px;
+  margin: 20px auto;
+}
+
+aside {
+  box-sizing: border-box;
+  width: 20%;
+  padding-right: 2%;
+  img.logo {
+    content: url("./images/logo.png");
+  }
+  nav ul {
+    li {
+      line-height: 2.5rem;
+      i {
+        margin-right: 2%;
+      }
+      a {
+        font-size: .8rem;
+      }
+    }
+  }
+  .community-group {
+    margin-top: 80px;
+    width: 80%;
+    font-size: 0.7rem;
+    line-height: 1.2rem;
+    li {
+      &:first-child {
+        margin-bottom: 35px;
+      }
+      h3 {
+        font-weight: 100;
+        border-bottom: 1px dashed $light-grey;
+      }
+      p {
+        margin-top: 10px;
+        font-size: .6rem;
+      }
+      a {
+        margin-top: 10px;
+        display: block;
+        padding: 3px 5px;
+        border-radius: 5px;
+        border: 1px solid $light-grey;
+        .fa {
+          margin-right: 1%;
+        }
+      }
+    }
+  }
+}
+
+.right-content {
+  width: 80%;
+  header {
+    position: relative;
+    .header-silde {
+      height: 400px;
+      background: url('./images/slide.jpg') no-repeat;
+      background-size: cover;
+      [class^="slogan-"] {
+        position: relative;
+        top: 58%;
+        padding: 1% 1%;
+        margin: 0 0 0 auto;
+        width: fit-content;
+      }
+      .slogan-title {
+        font-style: italic;
+        font-weight: 200;
+      }
+      .slogan-content {
+        color: white;
+      }
+      .slogan-author {
+        background: rgba(255, 255, 255, .5);
+        margin-top: 6%;
+        font-size: .5rem;
+        border-radius: 4px;
+      }
+    }
+    nav {
+      ul {
+        li {
+          color: $light-green;
+          background-color: #EFF8F7;
+          box-sizing: border-box;
+          width: 25%;
+          padding: 3% 2%;
+          border-right: 1px solid #D3EDE9;
+          float: left;
+          &:last-child {
+            border-right: none;
+          }
+          &.active {
+            background-color: #D9EFEC;
+          }
+          h3 {
+            font-size: 1.1rem;
+            font-weight: 300;
+          }
+          p {
+            font-size: .6rem;
+            font-style: italic;
+          }
+        }
+      }
+    }
+  }
+
+  .subscribe-email {
+    margin: 20px auto;
+    padding: 1%;
+    border-top: 1px dashed $light-grey;
+    border-bottom: 1px dashed $light-grey;
+    .email-intro {
+      margin-left: 2%;
+      width: 65%;
+      position: relative;
+      .fa {
+        position: absolute;
+        top: 0;
+        left: 0;
+        font-size: 1.5rem;
+      }
+      p {
+        width: 93%;
+        float: right;
+        font-style: italic;
+        font-size: .6rem;
+      }
+    }
+    input[type="button"] {
+      background-color: $light-grey;
+      border: $dark-grey;
+      border-radius: 4px;
+    }
+  }
+
+  .blog {
+    ul {
+      li {
+        float: left;
+        box-sizing: border-box;
+        width: 25%;
+        padding: 1%;
+        img {
+          width: 96%;
+          padding: 3%;
+          border: 1px solid $light-grey;
+        }
+        &:nth-child(1) img {
+          content: url("./images/food/food－image1.jpg");
+        }
+        &:nth-child(2) img {
+          content: url("./images/food/food－image2.jpg");
+        }
+        &:nth-child(3) img {
+          content: url("./images/food/food－image3.jpg");
+        }
+        &:nth-child(4) img {
+          content: url("./images/food/food－image1.jpg");
+        }
+        h4 {
+          line-height: 1.5rem;
+          font-size: .8rem;
+          font-weight: 200;
+          color: $light-green;
+        }
+        p {
+          font-size: .72rem;
+          line-height: 1rem;
+        }
+        .blog-item-footer {
+          color: $dark-grey;
+          line-height: 1.5rem;
+        }
+      }
+    }
+  }
+}
+
+footer {
+  font-size: 1em;
+  height: 100px;
+  clear: both;
+  padding: 10px;
+  margin: auto;
+  border-top: 2px solid $light-grey;
+  .footer-license {
+    p {
+      line-height: 1rem;
+      font-size: .6rem;
+      color: $dark-grey;
+    }
+    ul {
+      li {
+        float: left;
+        padding: 0 3px;
+        border-right: solid 1px $light-grey;
+        font-size: .75rem;
+        &:last-child {
+          border-right: none;
+        }
+      }
+    }
+  }
+  .footer-share-link {
+    a {
+      color: $dark-grey;
+      font-size: 1.3rem;
+    }
+  }
+}
