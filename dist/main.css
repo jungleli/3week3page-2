@@ -22,6 +22,9 @@
 .bg-white {
   background-color: white; }
 
+html {
+  font-size: 18px; }
+
 body {
   font-family: ff-tisa-web-pro, Georgia, sans-serif;
   width: 1080px;
@@ -68,8 +71,9 @@ aside {
       font-weight: 100;
       border-bottom: 1px dashed #E5E5E5; }
     aside .community-group li p {
+      font-style: italic;
       margin-top: 10px;
-      font-size: .6rem; }
+      font-size: .65rem; }
     aside .community-group li a {
       margin-top: 10px;
       display: block;
@@ -90,17 +94,19 @@ aside {
       .right-content header .header-silde [class^="slogan-"] {
         position: relative;
         top: 58%;
-        padding: 1% 1%;
+        padding: 1% 2%;
         margin: 0 0 0 auto;
         width: fit-content; }
       .right-content header .header-silde .slogan-title {
         font-style: italic;
         font-weight: 200; }
       .right-content header .header-silde .slogan-content {
-        color: white; }
+        color: white;
+        font-style: italic;
+        font-size: .9rem; }
       .right-content header .header-silde .slogan-author {
         background: rgba(255, 255, 255, 0.5);
-        margin-top: 6%;
+        margin-top: 5%;
         font-size: .5rem;
         border-radius: 4px; }
     .right-content header nav ul li {
@@ -139,7 +145,7 @@ aside {
         width: 93%;
         float: right;
         font-style: italic;
-        font-size: .6rem; }
+        font-size: .65rem; }
     .right-content .subscribe-email input[type="button"] {
       background-color: #E5E5E5;
       border: #999;
@@ -162,12 +168,11 @@ aside {
     .right-content .blog ul li:nth-child(4) img {
       content: url("./images/food/food－image1.jpg"); }
     .right-content .blog ul li h4 {
-      line-height: 1.5rem;
-      font-size: .8rem;
+      margin: .5rem 0;
       font-weight: 200;
       color: #3BAB98; }
     .right-content .blog ul li p {
-      font-size: .72rem;
+      font-size: .8rem;
       line-height: 1rem; }
     .right-content .blog ul li .blog-item-footer {
       color: #999;
@@ -182,7 +187,7 @@ footer {
   border-top: 2px solid #E5E5E5; }
   footer .footer-license p {
     line-height: 1rem;
-    font-size: .6rem;
+    font-size: .65rem;
     color: #999; }
   footer .footer-license ul li {
     float: left;
