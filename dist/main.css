@@ -83,33 +83,33 @@ aside {
       aside .community-group li a .fa {
         margin-right: 1%; }
 
-.right-content {
+main {
   width: 80%; }
-  .right-content header {
+  main header {
     position: relative; }
-    .right-content header .header-silde {
+    main header .header-silde {
       height: 400px;
       background: url("./images/slide.jpg") no-repeat;
       background-size: cover; }
-      .right-content header .header-silde [class^="slogan-"] {
+      main header .header-silde [class^="slogan-"] {
         position: relative;
         top: 58%;
         padding: 1% 2%;
         margin: 0 0 0 auto;
         width: fit-content; }
-      .right-content header .header-silde .slogan-title {
+      main header .header-silde .slogan-title {
         font-style: italic;
         font-weight: 200; }
-      .right-content header .header-silde .slogan-content {
+      main header .header-silde .slogan-content {
         color: white;
         font-style: italic;
         font-size: .9rem; }
-      .right-content header .header-silde .slogan-author {
+      main header .header-silde .slogan-author {
         background: rgba(255, 255, 255, 0.5);
         margin-top: 5%;
         font-size: .5rem;
         border-radius: 4px; }
-    .right-content header nav ul li {
+    main header nav ul li {
       color: #3BAB98;
       background-color: #EFF8F7;
       box-sizing: border-box;
@@ -117,64 +117,64 @@ aside {
       padding: 3% 2%;
       border-right: 1px solid #D3EDE9;
       float: left; }
-      .right-content header nav ul li:last-child {
+      main header nav ul li:last-child {
         border-right: none; }
-      .right-content header nav ul li.active {
+      main header nav ul li.active {
         background-color: #D9EFEC; }
-      .right-content header nav ul li h3 {
+      main header nav ul li h3 {
         font-size: 1.1rem;
         font-weight: 300; }
-      .right-content header nav ul li p {
+      main header nav ul li p {
         font-size: .6rem;
         font-style: italic; }
-  .right-content .subscribe-email {
+  main .subscribe-email {
     margin: 20px auto;
     padding: 1%;
     border-top: 1px dashed #E5E5E5;
     border-bottom: 1px dashed #E5E5E5; }
-    .right-content .subscribe-email .email-intro {
+    main .subscribe-email .email-intro {
       margin-left: 2%;
       width: 65%;
       position: relative; }
-      .right-content .subscribe-email .email-intro .fa {
+      main .subscribe-email .email-intro .fa {
         position: absolute;
         top: 0;
         left: 0;
         font-size: 1.5rem; }
-      .right-content .subscribe-email .email-intro p {
+      main .subscribe-email .email-intro p {
         width: 93%;
         float: right;
         font-style: italic;
         font-size: .65rem; }
-    .right-content .subscribe-email input[type="button"] {
+    main .subscribe-email input[type="button"] {
       background-color: #E5E5E5;
       border: #999;
       border-radius: 4px; }
-  .right-content .blog ul li {
+  main .blog ul li {
     float: left;
     box-sizing: border-box;
     width: 25%;
     padding: 1%; }
-    .right-content .blog ul li img {
+    main .blog ul li img {
       width: 96%;
       padding: 3%;
       border: 1px solid #E5E5E5; }
-    .right-content .blog ul li:nth-child(1) img {
+    main .blog ul li:nth-child(1) img {
       content: url("./images/food/food－image1.jpg"); }
-    .right-content .blog ul li:nth-child(2) img {
+    main .blog ul li:nth-child(2) img {
       content: url("./images/food/food－image2.jpg"); }
-    .right-content .blog ul li:nth-child(3) img {
+    main .blog ul li:nth-child(3) img {
       content: url("./images/food/food－image3.jpg"); }
-    .right-content .blog ul li:nth-child(4) img {
+    main .blog ul li:nth-child(4) img {
       content: url("./images/food/food－image1.jpg"); }
-    .right-content .blog ul li h4 {
+    main .blog ul li h4 {
       margin: .5rem 0;
       font-weight: 200;
       color: #3BAB98; }
-    .right-content .blog ul li p {
+    main .blog ul li p {
       font-size: .8rem;
       line-height: 1rem; }
-    .right-content .blog ul li .blog-item-footer {
+    main .blog ul li .blog-item-footer {
       color: #999;
       line-height: 1.5rem; }
 
